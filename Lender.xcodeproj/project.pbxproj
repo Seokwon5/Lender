@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		FBEE8F3B28F666F100AF9BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F3A28F666F100AF9BC4 /* AppDelegate.swift */; };
 		FBEE8F3D28F666F100AF9BC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F3C28F666F100AF9BC4 /* SceneDelegate.swift */; };
-		FBEE8F3F28F666F100AF9BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F3E28F666F100AF9BC4 /* ViewController.swift */; };
-		FBEE8F4228F666F100AF9BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEE8F4028F666F100AF9BC4 /* Main.storyboard */; };
 		FBEE8F4428F666F200AF9BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEE8F4328F666F200AF9BC4 /* Assets.xcassets */; };
 		FBEE8F4728F666F200AF9BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEE8F4528F666F200AF9BC4 /* LaunchScreen.storyboard */; };
+		FBEE8F4F28F6683200AF9BC4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F4E28F6683200AF9BC4 /* TabBarController.swift */; };
+		FBEE8F5228F671A200AF9BC4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F5128F671A200AF9BC4 /* HomeViewController.swift */; };
+		FBEE8F5528F6785300AF9BC4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8F5428F6785300AF9BC4 /* SnapKit */; };
+		FBEE8F5828F7D21400AF9BC4 /* BannerSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F5728F7D21400AF9BC4 /* BannerSectionView.swift */; };
+		FBEE8F5A28F7DEF300AF9BC4 /* BannerSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F5928F7DEF300AF9BC4 /* BannerSectionCollectionViewCell.swift */; };
+		FBEE8F8728FC0EC800AF9BC4 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F8628FC0EC800AF9BC4 /* SeparatorView.swift */; };
+		FBEE8F8928FC113F00AF9BC4 /* BorrowSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F8828FC113F00AF9BC4 /* BorrowSectionView.swift */; };
+		FBEE8F8C28FD165900AF9BC4 /* BorrowSectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F8B28FD165900AF9BC4 /* BorrowSectionViewCell.swift */; };
+		FBEE8F8E28FD34EE00AF9BC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8F8D28FD34EE00AF9BC4 /* LoginViewController.swift */; };
+		FBEE8F9128FD3CE500AF9BC4 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8F9028FD3CE500AF9BC4 /* KakaoSDK */; };
+		FBEE8F9328FD3CE500AF9BC4 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8F9228FD3CE500AF9BC4 /* KakaoSDKAuth */; };
+		FBEE8F9528FD3CE500AF9BC4 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8F9428FD3CE500AF9BC4 /* KakaoSDKCommon */; };
+		FBEE8F9728FD3CE500AF9BC4 /* KakaoSDKCommonCore in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8F9628FD3CE500AF9BC4 /* KakaoSDKCommonCore */; };
+		FBEE8F9928FD3CE500AF9BC4 /* KakaoSDKNavi in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8F9828FD3CE500AF9BC4 /* KakaoSDKNavi */; };
+		FBEE8F9B28FD3CE500AF9BC4 /* KakaoSDKShare in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8F9A28FD3CE500AF9BC4 /* KakaoSDKShare */; };
+		FBEE8F9D28FD3CE500AF9BC4 /* KakaoSDKStory in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8F9C28FD3CE500AF9BC4 /* KakaoSDKStory */; };
+		FBEE8F9F28FD3CE500AF9BC4 /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8F9E28FD3CE500AF9BC4 /* KakaoSDKTalk */; };
+		FBEE8FA128FD3CE500AF9BC4 /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8FA028FD3CE500AF9BC4 /* KakaoSDKTemplate */; };
+		FBEE8FA328FD3CE500AF9BC4 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8FA228FD3CE500AF9BC4 /* KakaoSDKUser */; };
+		FBEE8FA628FD3D1C00AF9BC4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8FA528FD3D1C00AF9BC4 /* Alamofire */; };
+		FBEE8FAA28FE829300AF9BC4 /* kakao_login_medium_narrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FBEE8FA928FE829300AF9BC4 /* kakao_login_medium_narrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FBEE8F3728F666F100AF9BC4 /* Lender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEE8F3A28F666F100AF9BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBEE8F3C28F666F100AF9BC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FBEE8F3E28F666F100AF9BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBEE8F4128F666F100AF9BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBEE8F4328F666F200AF9BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBEE8F4628F666F200AF9BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBEE8F4828F666F200AF9BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEE8F4E28F6683200AF9BC4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FBEE8F5128F671A200AF9BC4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FBEE8F5728F7D21400AF9BC4 /* BannerSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerSectionView.swift; sourceTree = "<group>"; };
+		FBEE8F5928F7DEF300AF9BC4 /* BannerSectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerSectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		FBEE8F8628FC0EC800AF9BC4 /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		FBEE8F8828FC113F00AF9BC4 /* BorrowSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowSectionView.swift; sourceTree = "<group>"; };
+		FBEE8F8B28FD165900AF9BC4 /* BorrowSectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowSectionViewCell.swift; sourceTree = "<group>"; };
+		FBEE8F8D28FD34EE00AF9BC4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FBEE8FA928FE829300AF9BC4 /* kakao_login_medium_narrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kakao_login_medium_narrow.png; path = ../../../Downloads/kakao_login_medium_narrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEE8F5528F6785300AF9BC4 /* SnapKit in Frameworks */,
+				FBEE8F9B28FD3CE500AF9BC4 /* KakaoSDKShare in Frameworks */,
+				FBEE8F9D28FD3CE500AF9BC4 /* KakaoSDKStory in Frameworks */,
+				FBEE8FA128FD3CE500AF9BC4 /* KakaoSDKTemplate in Frameworks */,
+				FBEE8F9128FD3CE500AF9BC4 /* KakaoSDK in Frameworks */,
+				FBEE8F9528FD3CE500AF9BC4 /* KakaoSDKCommon in Frameworks */,
+				FBEE8F9928FD3CE500AF9BC4 /* KakaoSDKNavi in Frameworks */,
+				FBEE8FA328FD3CE500AF9BC4 /* KakaoSDKUser in Frameworks */,
+				FBEE8F9F28FD3CE500AF9BC4 /* KakaoSDKTalk in Frameworks */,
+				FBEE8F9328FD3CE500AF9BC4 /* KakaoSDKAuth in Frameworks */,
+				FBEE8F9728FD3CE500AF9BC4 /* KakaoSDKCommonCore in Frameworks */,
+				FBEE8FA628FD3D1C00AF9BC4 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +96,52 @@
 			children = (
 				FBEE8F3A28F666F100AF9BC4 /* AppDelegate.swift */,
 				FBEE8F3C28F666F100AF9BC4 /* SceneDelegate.swift */,
-				FBEE8F3E28F666F100AF9BC4 /* ViewController.swift */,
-				FBEE8F4028F666F100AF9BC4 /* Main.storyboard */,
+				FBEE8F5028F6717800AF9BC4 /* Scenes */,
 				FBEE8F4328F666F200AF9BC4 /* Assets.xcassets */,
 				FBEE8F4528F666F200AF9BC4 /* LaunchScreen.storyboard */,
 				FBEE8F4828F666F200AF9BC4 /* Info.plist */,
+				FBEE8FA928FE829300AF9BC4 /* kakao_login_medium_narrow.png */,
+				FBEE8F8628FC0EC800AF9BC4 /* SeparatorView.swift */,
+				FBEE8F8D28FD34EE00AF9BC4 /* LoginViewController.swift */,
 			);
 			path = Lender;
+			sourceTree = "<group>";
+		};
+		FBEE8F5028F6717800AF9BC4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE8F4E28F6683200AF9BC4 /* TabBarController.swift */,
+				FBEE8F5628F7D1B200AF9BC4 /* HomeViewController */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FBEE8F5628F7D1B200AF9BC4 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE8F5128F671A200AF9BC4 /* HomeViewController.swift */,
+				FBEE8F5B28F7E4DB00AF9BC4 /* BannerView */,
+				FBEE8F8A28FD140400AF9BC4 /* BorrowSection */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		FBEE8F5B28F7E4DB00AF9BC4 /* BannerView */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE8F5928F7DEF300AF9BC4 /* BannerSectionCollectionViewCell.swift */,
+				FBEE8F5728F7D21400AF9BC4 /* BannerSectionView.swift */,
+			);
+			path = BannerView;
+			sourceTree = "<group>";
+		};
+		FBEE8F8A28FD140400AF9BC4 /* BorrowSection */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE8F8828FC113F00AF9BC4 /* BorrowSectionView.swift */,
+				FBEE8F8B28FD165900AF9BC4 /* BorrowSectionViewCell.swift */,
+			);
+			path = BorrowSection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +160,20 @@
 			dependencies = (
 			);
 			name = Lender;
+			packageProductDependencies = (
+				FBEE8F5428F6785300AF9BC4 /* SnapKit */,
+				FBEE8F9028FD3CE500AF9BC4 /* KakaoSDK */,
+				FBEE8F9228FD3CE500AF9BC4 /* KakaoSDKAuth */,
+				FBEE8F9428FD3CE500AF9BC4 /* KakaoSDKCommon */,
+				FBEE8F9628FD3CE500AF9BC4 /* KakaoSDKCommonCore */,
+				FBEE8F9828FD3CE500AF9BC4 /* KakaoSDKNavi */,
+				FBEE8F9A28FD3CE500AF9BC4 /* KakaoSDKShare */,
+				FBEE8F9C28FD3CE500AF9BC4 /* KakaoSDKStory */,
+				FBEE8F9E28FD3CE500AF9BC4 /* KakaoSDKTalk */,
+				FBEE8FA028FD3CE500AF9BC4 /* KakaoSDKTemplate */,
+				FBEE8FA228FD3CE500AF9BC4 /* KakaoSDKUser */,
+				FBEE8FA528FD3D1C00AF9BC4 /* Alamofire */,
+			);
 			productName = Lender;
 			productReference = FBEE8F3728F666F100AF9BC4 /* Lender.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +202,11 @@
 				Base,
 			);
 			mainGroup = FBEE8F2E28F666F100AF9BC4;
+			packageReferences = (
+				FBEE8F5328F6785300AF9BC4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				FBEE8FA428FD3D1C00AF9BC4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = FBEE8F3828F666F100AF9BC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +223,7 @@
 			files = (
 				FBEE8F4728F666F200AF9BC4 /* LaunchScreen.storyboard in Resources */,
 				FBEE8F4428F666F200AF9BC4 /* Assets.xcassets in Resources */,
-				FBEE8F4228F666F100AF9BC4 /* Main.storyboard in Resources */,
+				FBEE8FAA28FE829300AF9BC4 /* kakao_login_medium_narrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +234,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBEE8F3F28F666F100AF9BC4 /* ViewController.swift in Sources */,
+				FBEE8F8C28FD165900AF9BC4 /* BorrowSectionViewCell.swift in Sources */,
+				FBEE8F5828F7D21400AF9BC4 /* BannerSectionView.swift in Sources */,
+				FBEE8F4F28F6683200AF9BC4 /* TabBarController.swift in Sources */,
+				FBEE8F5A28F7DEF300AF9BC4 /* BannerSectionCollectionViewCell.swift in Sources */,
+				FBEE8F8728FC0EC800AF9BC4 /* SeparatorView.swift in Sources */,
 				FBEE8F3B28F666F100AF9BC4 /* AppDelegate.swift in Sources */,
+				FBEE8F8928FC113F00AF9BC4 /* BorrowSectionView.swift in Sources */,
 				FBEE8F3D28F666F100AF9BC4 /* SceneDelegate.swift in Sources */,
+				FBEE8F8E28FD34EE00AF9BC4 /* LoginViewController.swift in Sources */,
+				FBEE8F5228F671A200AF9BC4 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBEE8F4028F666F100AF9BC4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBEE8F4128F666F100AF9BC4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBEE8F4528F666F200AF9BC4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,9 +385,9 @@
 				DEVELOPMENT_TEAM = A2Z3TZ2R89;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Lender/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,9 +413,9 @@
 				DEVELOPMENT_TEAM = A2Z3TZ2R89;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Lender/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +453,96 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBEE8F5328F6785300AF9BC4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FBEE8FA428FD3D1C00AF9BC4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBEE8F5428F6785300AF9BC4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F5328F6785300AF9BC4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FBEE8F9028FD3CE500AF9BC4 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		FBEE8F9228FD3CE500AF9BC4 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		FBEE8F9428FD3CE500AF9BC4 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		FBEE8F9628FD3CE500AF9BC4 /* KakaoSDKCommonCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommonCore;
+		};
+		FBEE8F9828FD3CE500AF9BC4 /* KakaoSDKNavi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKNavi;
+		};
+		FBEE8F9A28FD3CE500AF9BC4 /* KakaoSDKShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKShare;
+		};
+		FBEE8F9C28FD3CE500AF9BC4 /* KakaoSDKStory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKStory;
+		};
+		FBEE8F9E28FD3CE500AF9BC4 /* KakaoSDKTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTalk;
+		};
+		FBEE8FA028FD3CE500AF9BC4 /* KakaoSDKTemplate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTemplate;
+		};
+		FBEE8FA228FD3CE500AF9BC4 /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8F8F28FD3CE500AF9BC4 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+		FBEE8FA528FD3D1C00AF9BC4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8FA428FD3D1C00AF9BC4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FBEE8F2F28F666F100AF9BC4 /* Project object */;
 }
