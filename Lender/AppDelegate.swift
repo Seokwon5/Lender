@@ -7,15 +7,30 @@
 
 import UIKit
 import KakaoSDKCommon
+import KakaoSDKAuth
+import KakaoSDKUser
+import Firebase
+import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if (AuthApi.isKakaoTalkLoginUrl(url)) {
+            return AuthController.handleOpenUrl(url: url)
+        }
+        
+        return false
+    }
+
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         KakaoSDK.initSDK(appKey: "b7fbd45be1d2c5ee8bcb99e23fd35679")
+        
+        FirebaseApp.configure()
     
         return true
     }

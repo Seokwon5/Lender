@@ -30,7 +30,7 @@ class TabBarController: UITabBarController {
     }()
     
     private lazy var postViewController : UIViewController = {
-        let viewController = UIViewController()
+        let viewController = UINavigationController(rootViewController: PostViewController())
         let tabBarItem = UITabBarItem(title: "글쓰기",
                                       image: UIImage(systemName: "plus"),
                                       tag: 2)
