@@ -9,6 +9,8 @@ import UIKit
 
 class TabBarController: UITabBarController {
     
+    let postViewModel = PostViewModel()
+    
     private lazy var homeViewController: UIViewController = {
         let viewController = UINavigationController(rootViewController: HomeViewController())
         let tabBarItem = UITabBarItem(title: "홈",
@@ -30,11 +32,13 @@ class TabBarController: UITabBarController {
     }()
     
     private lazy var postViewController : UIViewController = {
-        let viewController = UINavigationController(rootViewController: PostViewController())
+        let rootViewController = PostViewController()
+        rootViewController.bind(postViewModel)
+        let viewController = UINavigationController(rootViewController: rootViewController)
         let tabBarItem = UITabBarItem(title: "글쓰기",
-                                      image: UIImage(systemName: "plus"),
+                                      image: UIImage(systemName: "plus"), 
                                       tag: 2)
-        viewController.tabBarItem = tabBarItem
+        viewController.tabBarItem = tabBarItem 
         
         return viewController
     }()

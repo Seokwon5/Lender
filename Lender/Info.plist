@@ -12,6 +12,14 @@
 				<string>kakaob7fbd45be1d2c5ee8bcb99e23fd35679</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1056838516910-sn63ot1d2gmphjfaf78malov9q6kon1q</string>
+			</array>
+		</dict>
 	</array>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
